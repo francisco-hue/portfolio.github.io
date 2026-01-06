@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: #0d6efd;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #fff;
+    color: #0d6efd;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* SEÇÕES */
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 40px 20px;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* SOBRE */
+.sobre p {
+    text-align: center;
+}
+
+/* SERVIÇOS */
+.servicos ul {
+    list-style: none;
+    text-align: center;
+}
+
+.servicos li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* PROJETOS */
+.projetos {
+    text-align: center;
+}
+
+.projeto {
+    background: #e9ecef;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+
+    display: block;
+    text-decoration: none;
+    color: #333;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTATO */
+.contato {
+    text-align: center;
+}
